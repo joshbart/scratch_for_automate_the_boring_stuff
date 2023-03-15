@@ -5,9 +5,8 @@
 
 if is_raining == True:
     if have_umbrella == False:
-        # do:
+        while is_raining == True:
             # sleep 5 minutes
             # is_raining = api.get_weather()
-        # while (is_raining == True)
 
 print("Go outside!")
