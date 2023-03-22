@@ -1,8 +1,7 @@
 def convert_list_to_string(list):
     string_from_list = ''
     for item in list:
-        string_from_list += item
-        string_from_list += ', '
+        string_from_list += '%s, ' % item
     return string_from_list
 
 spam = [
