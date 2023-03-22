@@ -2,6 +2,7 @@ def convert_list_to_string(list):
     string_from_list = ''
     for item in list:
         string_from_list += item
+        string_from_list += ', '
     return string_from_list
 
 spam = [
