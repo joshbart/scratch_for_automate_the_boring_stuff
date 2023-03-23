@@ -12,6 +12,8 @@ grid = [
     ['.', '.', '.', '.', '.', '.']
 ]
 
+def print_picture(pattern):
+    return None
+
 if __name__ == '__main__':
-    # Do stuff
-    print()
+    print_picture(grid)
